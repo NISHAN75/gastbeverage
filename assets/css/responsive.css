@@ -18,18 +18,76 @@
 /* max-width 1399 */
 @media (max-width: 1399.98px) {
 	
+/* ============== pneumatic area section start ================== */
+.pneumatic-content {
+    margin-left: 0;
+}
+.pneumatic-area .col:nth-child(2) {
+    max-width: 600px;
+}
+/* ============== pneumatic area section end ================== */
 }
 
 /* max-width 1199 */
 @media (max-width: 1199.98px) {
 
 
+    /* ============== pneumatic area section start ================== */
+    .pneumatic-area .col {
+        flex: 1 0 100%;
+    }
+    .pneumatic-content ,
+    .pneumatic-area .col:nth-child(2) {
+        max-width: 100%;
+    }
+    .pneumatic-content{
+        margin-bottom: 35px;
+    }
+    .pneumatic-content h3 br{
+        display: none;
+    }
+    .pneumatic-area {
+        padding: 100px 0;
+    }
+    /* ============== pneumatic area section end ================== */
 }
 
 /* max-width 991 */
 @media (max-width: 991.98px) {
 
 
+/* ============== shaping industries section start ================== */
+.title-content-wrapper  .col {
+    flex: 1 0 100%;
+}
+.title-content-caption {
+    margin-top: 35px;
+}
+.title-info::before {
+    right: 0px;
+    top: auto;
+    height: 2px;
+    width: 100%;
+    bottom: -14px;
+}
+.title-content-wrapper .col:nth-child(2) {
+    max-width: 100%;
+}
+.title-content-wrapper {
+    margin-bottom: 50px;
+}
+.card-icon {
+    height: 60px;
+    width: 60px;
+}
+.card-icon svg{
+    height: 30px;
+    width: 30px;
+}
+.industries-card-content .btn-1 {
+    margin-top: 30px;
+}
+/* ============== shaping industries section end ================== */
 }
 
 /* max-width 767 */

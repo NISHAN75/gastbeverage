@@ -18,42 +18,6 @@
 /* font  family  */
 .tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
 @font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Black.woff2') format('woff2'),
-        url('../fonts/Metropolis-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
-        url('../fonts/Metropolis-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-BlackItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Metropolis-Extra';
     src: url('../fonts/Metropolis-ExtraBold.woff2') format('woff2'),
         url('../fonts/Metropolis-ExtraBold.woff') format('woff');
@@ -61,94 +25,20 @@
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraLightItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Medium.woff2') format('woff2'),
-        url('../fonts/Metropolis-Medium.woff') format('woff');
-    font-weight: 500;
+    src: url('../fonts/Metropolis-Black.woff2') format('woff2'),
+        url('../fonts/Metropolis-Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Metropolis-Semi';
-    src: url('../fonts/Metropolis-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraLight.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-MediumItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-RegularItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-RegularItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
-        url('../fonts/Metropolis-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis-Extra';
-    src: url('../fonts/Metropolis-ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ExtraBoldItalic.woff') format('woff');
+    src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+        url('../fonts/Metropolis-Bold.woff') format('woff');
     font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-Light.woff2') format('woff2'),
-        url('../fonts/Metropolis-Light.woff') format('woff');
-    font-weight: 300;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-LightItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
     font-display: swap;
 }
 
@@ -160,16 +50,38 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Metropolis';
-    src: url('../fonts/Metropolis-ThinItalic.woff2') format('woff2'),
-        url('../fonts/Metropolis-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
+    src: url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+        url('../fonts/Metropolis-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+        url('../fonts/Metropolis-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Light.woff2') format('woff2'),
+        url('../fonts/Metropolis-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis-Extra';
+    src: url('../fonts/Metropolis-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Metropolis-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'Metropolis';
     src: url('../fonts/Metropolis-Thin.woff2') format('woff2'),
@@ -328,7 +240,6 @@ h6 {
 	font-weight: 700;
 	line-height: 1.15;
     font-family: 'Metropolis' , sans-serif;
-    text-transform: uppercase;
 }
 
 h1 {
@@ -370,7 +281,8 @@ h6 {
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    transition: all 0.3s linear;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 .btn-1.black-version{
     color: #1E1E1E;
@@ -381,6 +293,7 @@ h6 {
 .btn-1.black-version:hover{
     color: #1E1E1E;
 }
+.header-top-element-info ul li .btn-2 ,
 .btn-2 {
     display: inline-block;
     color: #fff;
@@ -389,24 +302,36 @@ h6 {
     border-radius: 100px;
     background: #94C949;
     padding: 8px 20px;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 .btn-2:hover{
     color: #000;
 }
 /* all button */
-
+.b-radius-16{
+    border-radius: 16px;
+}
 
 /* ============== header section start ================== */
-.header-area{
+.header-area {
     position: fixed;
     z-index: 99;
     width: 100%;
     background: #FDFDFD;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 30px 0;
 }
-
+.header-area .container {
+    max-width: 1324px;
+}
+.header-area .row {
+    --bs-gutter-x: 0;
+}
+.header-logo {
+    padding-left: 41px;
+}
+.header-logo img {
+    max-width: 227px;
+}
 .search-area input[type="text"] {
     border-radius: 100px;
     border: 1px solid #C4C4C4;
@@ -439,6 +364,7 @@ h6 {
 .header-top-element-info > ul{
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .header-top-element-info .nice-select {
     height: auto;
@@ -458,27 +384,26 @@ h6 {
     color: #C4C4C4;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.5;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 
-.header-top-element-info ul li .btn-2{
-    color: #fff;
+.header-top-element-info ul li .btn-2 {
+    padding: 3px 20px;
 }
 .header-top-element-info > ul > li {
-    padding: 10px 20px;
+    padding: 5px 20px;
     position: relative;
     z-index: 1;
 }
 .header-top-element-info > ul > li:first-child {
     padding-right: 10px;
 }
-.header-top-element-info > ul > li::before{
+.header-top-element-info > ul > li::before {
     content: "";
     position: absolute;
     right: 0;
-    top: 0;
-    height: 100%;
+    top: -5px;
+    height: calc(100% + 10px);
     width: 1px;
     background-color: #000;
 }
@@ -497,7 +422,7 @@ h6 {
     width: 1000%;
     background: linear-gradient(270deg, #202020 0%, #4E4E53 100%);
     z-index: -1;
-    transform: skewX(60deg);
+    transform: skewX(56deg);
 }
 .header-top-element > div {
     flex: 1 0 0%;
@@ -506,7 +431,9 @@ h6 {
     max-width: 273px;
 }
 .header-right {
-    max-width: 944px;
+    max-width: 934px;
+    margin-right: 0;
+    margin-left: auto;
 }
 .header-top-element{
     max-width: 865px;
@@ -520,20 +447,20 @@ h6 {
     z-index: 1;
 }
 .main-menu-wrapper > ul > li{
-    margin-right: 45px;
+    margin-right: 38px;
 }
 .main-menu-wrapper > ul > li::before {
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: -21px;
     width: 0%;
     height: 7px;
     background: #313135;
     opacity: 0.51;
     z-index: 1;
     transform: translateX(-50%);
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
 }
 .main-menu-wrapper ul li:hover::before{
     width: 100%;
@@ -548,30 +475,43 @@ h6 {
     font-weight: 500;
     display: inline-block;
 }
-.main-menu-wrapper > ul > li > a{
-    padding: 16px 0;
+.main-menu-wrapper > ul > li > a {
+    padding-top: 20px;
 }
-.main-menu-wrapper > ul > li >.sub-menu {
+.main-menu-wrapper > ul > li > .sub-menu {
     position: absolute;
-    left: 0;
-    top: 56px;
+    left: -48px;
+    top: 68px;
     width: 658px;
     height: 300px;
-    /* opacity: 0;
-    visibility: hidden; */
-    column-count: 2; /* Split into 2 columns */
-    column-gap: 96px; /* Adjust gap between columns */
+    opacity: 0;
+    visibility: hidden;
+    column-count: 2;
+    column-gap: 96px;
+    transition: all 0.3s ease;
+    padding: 30px 48px;
 }
-.main-menu-wrapper > ul > li >.sub-menu::before{
+.main-menu-wrapper > ul > li > .sub-menu::before{
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    height: 100%;
+    height: 0%;
     width: 100%;
-    opacity: 0.98;
+    opacity: 0;
+    visibility: hidden;
     background: linear-gradient(0deg, #4E4E53 0%, #37373B 100%);
     z-index: -1;
+    transition: all 0.3s ease;
+}
+.main-menu-wrapper > ul > li:hover > .sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu-wrapper > ul > li:hover > .sub-menu::before{
+    opacity: 0.98;
+    visibility: visible;
+    height: 100%;
 }
 .main-menu-wrapper > ul > li > .sub-menu > li {
     display: block;
@@ -598,21 +538,51 @@ h6 {
 .main-menu-wrapper > ul > li > .sub-menu li > .sub-menu > li {
     margin-right: 18px;
 }
+.header-bottom-element::before {
+    content: "";
+    position: absolute;
+    left: -65px;
+    bottom: -21px;
+    height: 22px;
+    width: 1000%;
+    background-color: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: skewX(56deg);
+}
+.main-menu-wrapper > ul > li:after {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    height: 22px;
+    width: 100%;
+    left: 0;
+    top: 47px;
+}
 /* ============== header section end ================== */
 
 /* ============== banner area section start ================== */
 .banner-area {
     min-height: 1083px;
     height: 100vh;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 65px), calc(100% - 267px) calc(100% - 65px), calc(100% - 361px) 100%, 111px 100%, 18px calc(100% - 65px), 0 calc(100% - 65px));
-    background: #94C949;
+
 }
 .banner-conent h1{
     font-size: 117.48px;
     line-height: 0.9; 
     letter-spacing: 3.524px;
 }
-.banner-area::before{
+.video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 65px), calc(100% - 267px) calc(100% - 65px), calc(100% - 361px) 100%, 111px 100%, 18px calc(100% - 65px), 0 calc(100% - 65px));
+    background: #94C949;
+}
+
+.video-wrapper::before{
     content: "";
     position: absolute;
     left: 0;
@@ -625,14 +595,10 @@ h6 {
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), calc(100% - 270px) calc(100% - 75px), calc(100% - 364px) calc(100% - 10px), 114px calc(100% - 10px), 21px calc(100% - 75px), 0 calc(100% - 75px));
 }
 .video-item {
-    position: absolute;
-    left: 0;
-    top: 0;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), calc(100% - 270px) calc(100% - 75px), calc(100% - 364px) calc(100% - 10px), 114px calc(100% - 10px), 21px calc(100% - 75px), 0 calc(100% - 75px));
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    z-index: 1;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), calc(100% - 270px) calc(100% - 75px), calc(100% - 364px) calc(100% - 10px), 114px calc(100% - 10px), 21px calc(100% - 75px), 0 calc(100% - 75px));
 }
 .banner-content-info::before{
     content: "";
@@ -655,15 +621,19 @@ h6 {
 /* ============== banner area section end ================== */
 
 /* ============== pneumatic area section end ================== */
-.pneumatic-area{
-    padding: 146px 0 74px;
+.pneumatic-area {
+    padding: 146px 0 84px;
 }
 .pneumatic-area .container {
     max-width: 1494px;
 }
-.pneumatic-content h3{
+.section-title-wrapper h3 ,
+.pneumatic-content h3 {
     line-height: 1.2;
     color: #4E4E53;
+}
+.pneumatic-content h3{
+    margin-bottom: 24px;
 }
 .pneumatic-bg{
     position: absolute;
@@ -688,13 +658,13 @@ h6 {
 }
 .pneumatic-area .col:nth-child(2) {
     max-width: 748px;
-    flex-basis: 748px;
 }
 .pneumatic-area .btn-1 {
-    margin-top: 26px;
+    margin-top: 28px;
 }
 .pneumatic-content {
     max-width: 556px;
+    margin-left: 131px;
 }
 .video-compressor-video-wrapper::after {
     content: "";
@@ -730,7 +700,163 @@ h6 {
     background: #FFFFFF;
 }
 
+.video-compressor-video-wrapper .swiper-horizontal>.swiper-pagination-bullets, .video-compressor-video-wrapper .swiper-pagination-bullets.swiper-pagination-horizontal, .video-compressor-video-wrapper .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: -20px;
+    bottom: 0;
+}
 
 
+/* line wrapper */
+.line-animation-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    display: block;
+    transform: rotate(180deg);
+}
+.line-animation-wrapper svg {
+    display: inline-block;
+}
+.line-wrapper {
+    display: inline-block;
+    width: 58%;
+    height: 3px;
+    background: #CBCBCB;
+    margin-right: -7px;
+    margin-left: -7px;
+    transform: translateY(-3px);
+}
+
+.line-animation-wrapper-1 {
+    left: -381px;
+    top: 38px;
+    max-width: 446px;
+}
+.line-animation-wrapper-2 {
+    top: auto;
+    bottom: 90px;
+    left: -230px;
+    max-width: 377px;
+}
+.line-animation-wrapper-2 .line-wrapper {
+    width: 50%;
+}
+/* line wrapper */
 
 /* ============== pneumatic area section end ================== */
+
+
+
+/* ============== shaping industries section start ================== */
+.shaping-industries-area{
+    border-bottom: 8px solid #94C949;
+    padding-top: 96px;
+}
+.shaping-industries-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, #2F2F33 0%, #222225 100%);
+    z-index: -1;
+}
+.title-content-wrapper .row {
+    --bs-gutter-x: 0;
+}
+.title-content-wrapper h2{
+    max-width: 733px;
+}
+.title-content-wrapper .col:nth-child(2) {
+    max-width: 428px;
+}
+.title-info::before {
+    content: "";
+    position: absolute;
+    right: 58px;
+    top: -39px;
+    height: calc(100% + 78.65px);
+    width: 2px;
+    background: radial-gradient(circle, rgba(148,201,73,1) 0%, rgba(148,201,73,0) 100%);
+    opacity: 0.5;
+}
+.title-content-wrapper{
+    margin-bottom: 83px;
+}
+.industries-card-area {
+    margin-bottom: -119px;
+}
+.industries-card-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    z-index: 1;
+}
+.card-icon {
+    border-radius: 98px;
+    background: #94C949;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 98px;
+    width: 98px;
+    margin-bottom: 11px;
+}
+.industries-card-content h4{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.industries-card-content .btn-1 {
+    margin-top: 55px;
+}
+.industries-card-content {
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.industries-card-wrapper{
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+.industries-card-wrapper:hover{
+    border-color:#94C949;
+    box-shadow: 0px 0px 25px 0px rgba(161, 244, 43, 0.50);
+}
+.industries-card-area .row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
+}
+
+/* ============== shaping industries section end ================== */
+
+/* ============== shaping industries section end ================== */
+.comprehensive-solutions-area {
+    padding: 267px 0 128px;
+}
+.comprehensive-card-area .row {
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 53px;
+}
+.comprehensive-card-wrapper h5{
+    color:#4E4E53;
+    font-size: 25px;
+    line-height: 1.5; 
+}
+.comprehensive-card-content {
+    margin-top: 19px;
+}
+
+.comprehensive-card-area {
+    margin-top: 80px;
+}
+/* ============== shaping industries section end ================== */
