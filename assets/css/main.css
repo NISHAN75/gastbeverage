@@ -210,7 +210,7 @@ html.lenis body {
 
 /* scroll bar */
 .os-scrollbar-handle {
-	background: #BF1F1F;
+	background: #94C949;
 }
 
 body>.os-scrollbar {
@@ -370,6 +370,7 @@ h6 {
     display: inline-flex;
     align-items: center;
     gap: 7px;
+    transition: all 0.3s linear;
 }
 .btn-1.black-version{
     color: #1E1E1E;
@@ -380,13 +381,231 @@ h6 {
 .btn-1.black-version:hover{
     color: #1E1E1E;
 }
+.btn-2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: #94C949;
+    padding: 8px 20px;
+    transition: all 0.3s linear;
+}
+.btn-2:hover{
+    color: #000;
+}
 /* all button */
 
 
+/* ============== header section start ================== */
+.header-area{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 0;
+}
+
+.search-area input[type="text"] {
+    border-radius: 100px;
+    border: 1px solid #C4C4C4;
+    background: #000;
+    padding: 2px 12px;
+    color:#C4C4C4 ;
+    padding-left: 34px;
+}
+.search-input::placeholder{
+    color: #C4C4C4;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.header-top-element-info {
+    margin-left: 34px;
+}
+
+.main-menu-wrapper ul ,
+.header-top-element-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-top-element-info > ul{
+    display: flex;
+    align-items: center;
+}
+.header-top-element-info .nice-select {
+    height: auto;
+    border: 0;
+    background: transparent;
+}
+.header-top-element-info .nice-select:after {
+    height: 8.5px;
+    margin-top: -8px;
+    right: 14px;
+    width: 8.5px;
+    border-bottom: 2px solid #9B9BA4;
+    border-right: 2px solid #9B9BA4;
+}
+.header-top-element-info .nice-select ,
+.header-top-element-info ul li a{
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    transition: all 0.3s linear;
+}
+
+.header-top-element-info ul li .btn-2{
+    color: #fff;
+}
+.header-top-element-info > ul > li {
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+}
+.header-top-element-info > ul > li:first-child {
+    padding-right: 10px;
+}
+.header-top-element-info > ul > li::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #000;
+}
+.header-top-element-info > ul > li:last-child::before{
+    display: none;
+}
+.header-top-element-info > ul > li:last-child{
+    padding-right: 0;
+}
+.header-top-element::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    height: 100%;
+    width: 1000%;
+    background: linear-gradient(270deg, #202020 0%, #4E4E53 100%);
+    z-index: -1;
+    transform: skewX(60deg);
+}
+.header-top-element > div {
+    flex: 1 0 0%;
+}
+.search-area {
+    max-width: 273px;
+}
+.header-right {
+    max-width: 944px;
+}
+.header-top-element{
+    max-width: 865px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.main-menu-wrapper ul li {
+    display: inline-block;
+
+    position: relative;
+    z-index: 1;
+}
+.main-menu-wrapper > ul > li{
+    margin-right: 45px;
+}
+.main-menu-wrapper > ul > li::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0%;
+    height: 7px;
+    background: #313135;
+    opacity: 0.51;
+    z-index: 1;
+    transform: translateX(-50%);
+    transition: all 0.3s linear;
+}
+.main-menu-wrapper ul li:hover::before{
+    width: 100%;
+}
+.main-menu-wrapper ul li:last-child{
+    margin-right: 0px;
+
+}
+.main-menu-wrapper ul li a {
+    color: #231F20;
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+}
+.main-menu-wrapper > ul > li > a{
+    padding: 16px 0;
+}
+.main-menu-wrapper > ul > li >.sub-menu {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 658px;
+    height: 300px;
+    /* opacity: 0;
+    visibility: hidden; */
+    column-count: 2; /* Split into 2 columns */
+    column-gap: 96px; /* Adjust gap between columns */
+}
+.main-menu-wrapper > ul > li >.sub-menu::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.98;
+    background: linear-gradient(0deg, #4E4E53 0%, #37373B 100%);
+    z-index: -1;
+}
+.main-menu-wrapper > ul > li > .sub-menu > li {
+    display: block;
+    margin-bottom: 25px;
+}
+.main-menu-wrapper ul > li > .sub-menu > li > a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-menu-wrapper > ul > li > .sub-menu > li {
+    break-inside: avoid;
+}
+.main-menu-wrapper > ul > li > .sub-menu li:nth-child(4) {
+    break-before: column; 
+}
+.main-menu-wrapper ul > li > .sub-menu > li > .sub-menu > li > a{
+    color: #A5E151;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+.main-menu-wrapper > ul > li > .sub-menu li > .sub-menu > li {
+    margin-right: 18px;
+}
+/* ============== header section end ================== */
+
 /* ============== banner area section start ================== */
-.banner-area{
+.banner-area {
     min-height: 1083px;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 65px), calc(100% - 267px) calc(100% - 65px), calc(100% - 361px) 100%, 111px 100%, 18px calc(100% - 65px), 0 calc(100% - 65px));
+    background: #94C949;
 }
 .banner-conent h1{
     font-size: 117.48px;
@@ -402,7 +621,18 @@ h6 {
     width: 100%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%);
     mix-blend-mode: multiply;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), calc(100% - 270px) calc(100% - 75px), calc(100% - 364px) calc(100% - 10px), 114px calc(100% - 10px), 21px calc(100% - 75px), 0 calc(100% - 75px));
+}
+.video-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), calc(100% - 270px) calc(100% - 75px), calc(100% - 364px) calc(100% - 10px), 114px calc(100% - 10px), 21px calc(100% - 75px), 0 calc(100% - 75px));
 }
 .banner-content-info::before{
     content: "";
@@ -412,18 +642,95 @@ h6 {
     height: 100%;
     width: 100%;
     background: linear-gradient(180deg, #4E4E53 0%, #4E4E53 100%);
-
     opacity: 0.95;
     z-index: -1;
 }
-.banner-content-info{
+.banner-content-info {
     max-width: 862px;
+    padding: 61px 83px 93px 42px;
 }
 .banner-content-info p{
     color: #fff;
+}
+/* ============== banner area section end ================== */
+
+/* ============== pneumatic area section end ================== */
+.pneumatic-area{
+    padding: 146px 0 74px;
+}
+.pneumatic-area .container {
+    max-width: 1494px;
 }
 .pneumatic-content h3{
     line-height: 1.2;
     color: #4E4E53;
 }
-/* ============== banner area section end ================== */
+.pneumatic-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.pneumatic-area::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 15.41%, #FFF 100%);
+    z-index: 2;
+}
+.pneumatic-area .row {
+    --bs-gutter-x: 0;
+}
+.pneumatic-area .col:nth-child(2) {
+    max-width: 748px;
+    flex-basis: 748px;
+}
+.pneumatic-area .btn-1 {
+    margin-top: 26px;
+}
+.pneumatic-content {
+    max-width: 556px;
+}
+.video-compressor-video-wrapper::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #94C949;
+    z-index: -1;
+    clip-path: polygon(100% 0, 100% 100%, calc(100% - 121px) 100%, calc(100% - 141px) calc(100% - 20px), 355px calc(100% - 20px), 335px 100%, 0 100%, 0 0);
+}
+.video-compressor-video {
+    width: 100%;
+    height: 558px;
+    object-fit: cover;
+}
+.video-compressor-video-wrapper h6 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1.28px;
+    padding-left: 27px;
+}
+.video-compressor-video-wrapper .swiper-pagination {
+    text-align: right;
+}
+
+.video-compressor-video-wrapper .swiper-pagination-bullet {
+    background: #242424;
+    opacity: 1;
+}
+.video-compressor-video-wrapper .swiper-pagination-bullet-active {
+    background: #FFFFFF;
+}
+
+
+
+
+/* ============== pneumatic area section end ================== */

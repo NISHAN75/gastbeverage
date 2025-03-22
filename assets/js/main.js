@@ -8,9 +8,14 @@
  
 
 
+        var videoCompressor = new Swiper(".video-compressor-slider", {
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
 
-
-
+       // nice select
+       $('select').niceSelect();
 
         // OverlayScrollbars
         const {
