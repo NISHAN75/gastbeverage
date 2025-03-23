@@ -55,7 +55,26 @@
 /* max-width 991 */
 @media (max-width: 991.98px) {
 
-
+    /* header style */
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 40px;
+    }
+    
+    h4 {
+        font-size: 30px;
+    }
+    
+    h5 {
+        font-size: 24px;
+    }
 /* ============== shaping industries section start ================== */
 .title-content-wrapper  .col {
     flex: 1 0 100%;
@@ -98,7 +117,22 @@
 
 /* max-width 575 */
 @media (max-width: 575.98px) {
-	
+	    /* header style */
+        h1 {
+            font-size: 50px;
+        }
+        
+        h2 {
+            font-size: 40px;
+        }
+        
+        h3 {
+            font-size: 30px;
+        }
+        
+        h4 {
+            font-size: 24px;
+        }
 }
 
 /* max-width 479 */

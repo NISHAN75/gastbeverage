@@ -364,7 +364,6 @@ h6 {
 .header-top-element-info > ul{
     display: flex;
     align-items: center;
-    overflow: hidden;
 }
 .header-top-element-info .nice-select {
     height: auto;
@@ -398,6 +397,10 @@ h6 {
 .header-top-element-info > ul > li:first-child {
     padding-right: 10px;
 }
+.header-top-element-info > ul > li:first-child:before{
+    display: none;
+}
+.header-top-element-info > ul > li:nth-child(2)::after,
 .header-top-element-info > ul > li::before {
     content: "";
     position: absolute;
@@ -406,6 +409,10 @@ h6 {
     height: calc(100% + 10px);
     width: 1px;
     background-color: #000;
+}
+.header-top-element-info > ul > li:nth-child(2)::after{
+    right: auto;
+    left: 0;
 }
 .header-top-element-info > ul > li:last-child::before{
     display: none;
@@ -754,15 +761,28 @@ h6 {
     border-bottom: 8px solid #94C949;
     padding-top: 96px;
 }
-.shaping-industries-area::before{
+.shaping-industries-area::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 147px;
+    height: 967px;
+    width: 1328px;
+    border-radius: 1328px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0.25) 0%, rgba(28, 28, 28, 0.25) 100%);
+    mix-blend-mode: lighten;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.shaping-industries-area::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, #2F2F33 0%, #222225 100%);
     z-index: -1;
+    background: radial-gradient(53.11% 53.11% at 50% 108.28%, #94C949 10%, rgba(148, 201, 73, 0.00) 100%), linear-gradient(180deg, #2F2F33 0%, #222225 100%);
 }
 .title-content-wrapper .row {
     --bs-gutter-x: 0;
@@ -783,11 +803,11 @@ h6 {
     background: radial-gradient(circle, rgba(148,201,73,1) 0%, rgba(148,201,73,0) 100%);
     opacity: 0.5;
 }
-.title-content-wrapper{
-    margin-bottom: 83px;
+.title-content-wrapper {
+    margin-bottom: 66px;
 }
 .industries-card-area {
-    margin-bottom: -119px;
+    margin-bottom: -127px;
 }
 .industries-card-wrapper::before {
     content: "";
@@ -824,8 +844,9 @@ h6 {
     width: 100%;
     z-index: 3;
 }
-.industries-card-wrapper{
+.industries-card-wrapper {
     border: 1px solid transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease;
 }
 .industries-card-wrapper:hover{
@@ -836,7 +857,9 @@ h6 {
     --bs-gutter-x: 20px;
     --bs-gutter-y: 20px;
 }
-
+.title-content-caption p {
+    font-size: 16px;
+}
 /* ============== shaping industries section end ================== */
 
 /* ============== shaping industries section end ================== */
@@ -847,16 +870,37 @@ h6 {
     --bs-gutter-x: 20px;
     --bs-gutter-y: 53px;
 }
+.comprehensive-card-wrapper{
+    transform: translateY(0);
+    transition: all 0.3s ease;
+}
 .comprehensive-card-wrapper h5{
     color:#4E4E53;
     font-size: 25px;
     line-height: 1.5; 
 }
-.comprehensive-card-content {
-    margin-top: 19px;
-}
-
 .comprehensive-card-area {
     margin-top: 80px;
+}
+.comprehensive-card-img {
+    min-height: 428px;
+}
+.comprehensive-card-wrapper:hover{
+    transform: translateY(-10px);
+}
+.comprehensive-bg {
+    position: absolute;
+    left: -489px;
+    top: -106px;
+    height: calc(100% + 148px);
+    width: 605px;
+    opacity: 0.03;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    object-fit: cover;
+}
+.comprehensive-bg-2{
+    left: auto;
+    right: -489px;
 }
 /* ============== shaping industries section end ================== */
